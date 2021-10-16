@@ -20,6 +20,9 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
+TOKEN = 'ODk4MDk4MjU2ODIxNzY0MTI2.YWfRLg.yKx8bLq_zC7bM_Lg2edxHpGDD-8'
+GUILD = 'training ground'
+
 client = discord.Client()
 
 
