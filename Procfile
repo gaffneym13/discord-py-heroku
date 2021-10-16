@@ -1,1 +1,1 @@
-worker: python bot/test connection.py
+worker: python bot/DiscordApp.py
