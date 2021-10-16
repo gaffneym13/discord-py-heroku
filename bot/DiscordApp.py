@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# bot.py
 import os
 import discord
 from dotenv import load_dotenv
@@ -13,23 +6,13 @@ import random
 import string
 
 
-# In[2]:
-
-
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
-GUILD = os.getenv('DISCORD_GUILD')
+TOKEN = os.getenv("DISCORD_TOKEN")
+GUILD = os.getenv("DISCORD_GUILD")
 
 client = discord.Client()
 
-
-# In[3]:
-
-
 translator = str.maketrans('', '', string.punctuation)
-
-
-# In[4]:
 
 
 def response_decider(message):
@@ -43,8 +26,6 @@ def response_decider(message):
             return(response)
     return
 
-
-# In[ ]:
 
 
 nest_asyncio.apply()
