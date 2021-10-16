@@ -18,7 +18,7 @@ import string
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-GUILD = 'training ground'
+GUILD = os.getenv('DISCORD_GUILD')
 
 client = discord.Client()
 
@@ -29,7 +29,7 @@ client = discord.Client()
 translator = str.maketrans('', '', string.punctuation)
 
 
-# In[10]:
+# In[4]:
 
 
 def response_decider(message):
@@ -38,7 +38,7 @@ def response_decider(message):
         if word.endswith('er') :
             response = word.title() + '? I barely knew her!'
             return(response)
-        if word.endswith('im') & (word != 'im') & (word != 'him'):
+        if word.endswith('im') :
             response = word.title() + '? I barely knew him!'
             return(response)
     return
@@ -59,4 +59,3 @@ async def on_message(message):
         response = None
 
 client.run(TOKEN)
-
