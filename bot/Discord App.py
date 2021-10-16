@@ -18,7 +18,7 @@ import string
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-GUILD = os.getenv('DISCORD_GUILD')
+GUILD = 'training ground'
 
 client = discord.Client()
 
