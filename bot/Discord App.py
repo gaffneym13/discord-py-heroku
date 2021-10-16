@@ -29,7 +29,7 @@ client = discord.Client()
 translator = str.maketrans('', '', string.punctuation)
 
 
-# In[4]:
+# In[10]:
 
 
 def response_decider(message):
@@ -38,7 +38,7 @@ def response_decider(message):
         if word.endswith('er') :
             response = word.title() + '? I barely knew her!'
             return(response)
-        if word.endswith('im') :
+        if word.endswith('im') & (word != 'im') & (word != 'him'):
             response = word.title() + '? I barely knew him!'
             return(response)
     return
