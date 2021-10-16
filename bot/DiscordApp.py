@@ -28,7 +28,6 @@ def response_decider(message):
 
 
 
-nest_asyncio.apply()
 @client.event
 async def on_message(message):
     if message.author == client.user:
