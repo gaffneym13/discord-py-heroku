@@ -1,7 +1,5 @@
 import os
 import discord
-import nest_asyncio
-import random
 import string
 
 
