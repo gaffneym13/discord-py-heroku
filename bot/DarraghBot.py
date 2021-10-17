@@ -49,8 +49,8 @@ def response_decider(message):
 async def on_message(message):
     if message.author == client.user:
         return
-#    if random.sample(range(1,10), 1) != 1:
-#        return
+    if random.sample(range(1,10), 1)[0] != 1:
+        return
 
     response = response_decider(message.content)
     if response is not None:
