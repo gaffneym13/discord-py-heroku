@@ -15,14 +15,14 @@ translator = str.maketrans('', '', string.punctuation)
 
 
 
- darragh_quotes = [
-        'Eh yeah',
-        'Uh huh',
-        'Really?',
-        'No both those pints are for me',
-        'Two Beamish please',
-        'Any smokes goin?',
-    ]
+darragh_quotes = [
+    'Eh yeah',
+    'Uh huh',
+    'Really?',
+    'No both those pints are for me',
+    'Two Beamish please',
+    'Any smokes goin?',
+]
 
 
 
