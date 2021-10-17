@@ -1,1 +1,1 @@
-worker: python bot/DiscordApp.py
+worker: python bot/DiscordApp.py & python bot/DarraghBot.py & wait -n
