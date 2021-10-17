@@ -22,6 +22,7 @@ darragh_quotes = [
     'No both those pints are for me',
     'Two Beamish please',
     'Any smokes goin?',
+	'Few bav?',
 ]
 
 
