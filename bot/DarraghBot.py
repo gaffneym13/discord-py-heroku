@@ -24,6 +24,8 @@ darragh_quotes = [
     'Any smokes goin?',
 	'Few bav?',
 	'Yep',
+	'Well if I told you that I\'d have nothing to tell you',
+	'That\'s it now',
 ]
 
 
@@ -51,7 +53,7 @@ def response_decider(message):
 async def on_message(message):
     if message.author == client.user:
         return
-    if random.sample(range(1,10), 1)[0] != 1:
+    if random.sample(range(1,5), 1)[0] != 1:
         return
 
     response = response_decider(message.content)
