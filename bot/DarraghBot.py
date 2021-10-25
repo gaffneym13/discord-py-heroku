@@ -35,7 +35,7 @@ def response_decider(message):
     sentence = message.translate(translator)
     reject = 0
     for word in sentence.split():
-        if (word.endswith('er')) & (word != 'er') & (word != 'her'):
+        if (word.endswith('er')) & (word != 'er') & (word != 'her') & (word != 'over'):
             reject = 1 
         if (word.endswith('im')) & (word != 'im') & (word != 'him'):
             reject = 1 
