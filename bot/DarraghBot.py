@@ -16,16 +16,16 @@ translator = str.maketrans('', '', string.punctuation)
 
 
 darragh_quotes = [
-    '/tts Eh yeah',
-    '/tts Uh huh',
-    '/tts Really?',
-    '/tts No both those pints are for me',
-    '/tts Two Beamish please',
-    '/tts Any smokes goin?',
-	'/tts Few bav?',
-	'/tts Yep',
-	'/tts Well if I told you that I\'d have nothing to tell you',
-	'/tts That\'s it now',
+    'Eh yeah',
+    'Uh huh',
+    'Really?',
+    'No both those pints are for me',
+    'Two Beamish please',
+    'Any smokes goin?',
+	'Few bav?',
+	'Yep',
+	'Well if I told you that I\'d have nothing to tell you',
+	'That\'s it now',
 ]
 
 
