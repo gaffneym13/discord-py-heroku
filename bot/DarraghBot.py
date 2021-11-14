@@ -26,6 +26,7 @@ darragh_quotes = [
 	'Yep',
 	'Well if I told you that I\'d have nothing to tell you',
 	'That\'s it now',
+	'Are those lads bothering you?',
 ]
 
 
