@@ -27,6 +27,7 @@ darragh_quotes = [
 	'Well if I told you that I\'d have nothing to tell you',
 	'That\'s it now',
 	'Are those lads bothering you?',
+	'Hahahaha if only he knew the law for nesting season it would be great'
 ]
 
 
